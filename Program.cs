@@ -13,6 +13,8 @@ builder.Services.AddRazorPages();
 //    options.UseSqlServer(connectionString);
 //});
 
+
+
 var app = builder.Build();
 // Configure the HTTP request pipeline.
 if (!app.Environment.IsDevelopment())
