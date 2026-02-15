@@ -11,6 +11,7 @@ if (!app.Environment.IsDevelopment())
     app.UseExceptionHandler("/Error");
 }
 
+// Enable serving static files from the "wwwroot" folder
 app.UseRouting();
 
 app.UseAuthorization();
